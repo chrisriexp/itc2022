@@ -1,0 +1,61 @@
+html {
+    height: 100vh;
+    scroll-behavior: smooth;
+}
+
+.ycenter{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.xcenter{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.nav-z {
+    z-index: 200;
+    position: absolute;
+}
+
+.arrow-z {
+    z-index: 200;
+    position: absolute;
+}
+
+
+.int-background {
+    z-index: 1;
+    position: absolute;
+}
+
+.init-content {
+    z-index: 10;
+    position: absolute;
+}
+
+.nav-icon {
+    color: white;
+}
+
+.circular-progress {
+  position: relative;
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+}
+.circular-progress:before {
+  content: "";
+  position: absolute;
+  height: 84%;
+  width: 84%;
+  background-color: #ffffff;
+  border-radius: 50%;
+}
+.value-container {
+  position: relative;
+  font-size: 50px;
+  color: #4c4c4c;
+}
